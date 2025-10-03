@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import useDebounce from "../hooks/useDebounce";
 
-export default function DebounceDemo() {
+export function DebounceDemo() {
   const [query, setQuery] = useState("");
   const debouncedQuery = useDebounce(query, 500);
 
