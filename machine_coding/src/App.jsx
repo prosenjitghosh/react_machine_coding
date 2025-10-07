@@ -6,6 +6,7 @@ import { CounterDemo } from './examples/CounterDemo'
 import { Accordion } from './component/Accordian'
 import { ThemeToggleDemo } from './examples/ThemeToggleDemo'
 import { ProgressBar } from './examples/ProgressBarDemo'
+import { TodoList } from './component/TodoList'
 
 
 
@@ -19,7 +20,8 @@ function App() {
       {/* <CounterDemo /> */}
       {/* <Accordion /> */}
       {/* <ThemeToggleDemo /> */}
-      <ProgressBar />
+      {/* <ProgressBar /> */}
+      <TodoList />
     </>
   )
 }
